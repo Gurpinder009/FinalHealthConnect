@@ -1,0 +1,81 @@
+<resources>
+    <string name="app_name">Health Connect</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <string name="btnConsulation">Consultations</string>
+    <string name="btnAppts">Appointments</string>
+    <string name="icon_patients">Patients</string>
+
+    <string name="btnConsulationA">Consultations</string>
+    <string name="btnApptsA"><u>Appointments</u></string>
+
+
+    <string name="btnConsulationC"><u>Consultations</u></string>
+    <string name="btnApptsC">Appointments</string>
+
+    <string name="btnConsulationP">Consultations</string>
+    <string name="btnApptsP">Appointments</string>
+
+    <string name="tvdescAppt">Create Appointment</string>
+
+
+    <!--    create patient layout values-->
+    <string name="register_new_patient">Register a patient</string>
+    <string name="first_name">First name</string>
+    <string name="last_name">Last name</string>
+    <string name="email">Email address</string>
+    <string name="phone_num">Phone number</string>
+    <string name="dob">Date of birth</string>
+    <string name="gender">Gender</string>
+    <string name="address">Address</string>
+    <string name="emergency_contact">Emergency Contact</string>
+    <string name="blood_type">Blood Type</string>
+    <string name="height">Height</string>
+    <string name="weight">Weight</string>
+    <string name="allergies">Allergies</string>
+    <string name="registerBtn">Register a patient</string>
+
+
+    <!--    consultation Activity-->
+    <string name="create_consultation">Create a consultation</string>
+    <string name="consultation_title">Title</string>
+    <string name="consultation_date">Date</string>
+    <string name="consultation_diagnoses">Diagnoses</string>
+    <string name="consultation_treatments">Treatments</string>
+    <string name="consultation_symptoms">Symptoms</string>
+    <string name="consultation_btn">Next</string>
+
+
+    <!--    Medication Activity -->
+    <string name="create_medication">Create a medication</string>
+    <string name="medication_title">Medicine name</string>
+    <string name="medication_dosage">Dosage</string>
+    <string name="medication_duration">Duration</string>
+    <string name="done_btn">Done</string>
+
+
+    <!--    Schedule Activity-->
+    <string name="create_schedule">Schedule Appointment</string>
+    <string name="appointment_patient">Patient</string>
+    <string name="appointment_date">Date</string>
+    <string name="appointment_reason">Reason</string>
+    <string name="book_appointment">Book appointment</string>
+
+
+    <!--    view patient-->
+    <string name="update_patient_btn">Update patient</string>
+    <string name="remove_patient_btn">Remove patient</string>
+    <string name="addApptBtn">Add Appointment</string>
+    <string name="search_patient">Search Patient by name</string>
+
+
+    <string name="viewAppointment">View Appointments</string>
+    <string name="cancelAppointment">Cancel Appointment</string>
+    <string name="search_Appt">Search Appointment</string>
+    <string name="add_medication">Add Medication</string>
+    <string name="add_consultation">Add Consultation</string>
+    <string name="update_patient_title">Update patient details\n</string>
+    <string name="add_more_medication">Add More Medications</string>
+
+</resources>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:backgroundTint="#E1E8E9"
+
+    android:foregroundTint="#E1E8E9"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+
+        android:paddingHorizontal="10dp"
+        android:paddingVertical="15dp">
+
+        <!--        heading-->
+        <TextView
+
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#04544C"
+            android:textSize="18sp" />
+
+        <!--id-->
+        <TextView
+            android:id="@+id/id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#04544C" />
+    </LinearLayout>
+
+    <!--//line-->
+    <View
+        android:id="@+id/divider"
+        android:layout_width="match_parent"
+        android:textColor="#03A9F0"
+
+        android:layout_height="1dp"
+        android:background="?android:attr/listDivider" />
+</LinearLayout>

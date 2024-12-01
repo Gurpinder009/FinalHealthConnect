@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".patient.AddPatientFragment">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">      <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#8BBEC5"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <TextView
+                android:text="@string/register_new_patient"
+                android:id="@+id/registerPatient"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:backgroundTint="#DBDBDB"
+                android:fontFamily="serif"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textColor="#202E7C"
+                android:textSize="34sp" />
+
+            <EditText
+                android:id="@+id/firstNameInput"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/square_borders"
+                android:backgroundTint="#8BBEC5"
+                android:fontFamily="serif"
+                android:hint="@string/first_name"
+                android:textSize="24sp" />
+
+            <EditText
+                android:id="@+id/lastNameInput"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/square_borders"
+                android:backgroundTint="#8BBEC5"
+                android:fontFamily="serif"
+                android:hint="@string/last_name"
+                android:textSize="24sp" />
+
+
+            <EditText
+                android:id="@+id/emailInput"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/square_borders"
+                android:backgroundTint="#8BBEC5"
+                android:fontFamily="serif"
+                android:hint="@string/email"
+                android:textSize="24sp" />
+
+            <EditText
+                android:id="@+id/phoneInput"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/square_borders"
+                android:backgroundTint="#8BBEC5"
+                android:fontFamily="serif"
+                android:hint="@string/phone_num"
+                android:textSize="24sp" />
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="65dp"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/square_borders"
+                android:backgroundTint="#2BB2C3"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tvSelectedDateP"
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+
+                    android:backgroundTint="#00BCD4"
+                    android:fontFamily="serif"
+                    android:gravity="center_vertical"
+                    android:hint="@string/dob"
+                    android:textAllCaps="true"
+                    android:textColor="#033C37"
+                    android:textColorHint="#B8C5D0"
+                    android:textSize="24sp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toStartOf="@+id/dateBtnP"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <ImageButton
+                    android:id="@+id/dateBtnP"
+                    android:layout_width="79dp"
+                    android:layout_height="62dp"
+                    android:layout_alignParentLeft="true"
+                    android:backgroundTint="#02FFFFFF"
+                    android:contentDescription="Pick a date"
+                    android:src="@android:drawable/ic_menu_my_calendar"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toEndOf="@+id/tvSelectedDateP"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:tint="#1E9EAF" />
+
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <EditText
+                android:id="@+id/genderInput"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/square_borders"
+                android:backgroundTint="#8BBEC5"
+                android:fontFamily="serif"
+                android:hint="@string/gender"
+                android:textSize="24sp" />
+
+            <EditText
+                android:id="@+id/addressInput"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/square_borders"
+                android:backgroundTint="#8BBEC5"
+                android:fontFamily="serif"
+                android:hint="@string/address"
+                android:textSize="24sp" />
+
+            <EditText
+                android:id="@+id/emergencyContactInput"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/square_borders"
+                android:backgroundTint="#8BBEC5"
+                android:hint="@string/emergency_contact"
+                android:textSize="24sp" />
+
+            <EditText
+                android:id="@+id/bloodTypeInput"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/square_borders"
+                android:backgroundTint="#8BBEC5"
+                android:fontFamily="serif"
+                android:hint="@string/blood_type"
+                android:textSize="24sp" />
+
+            <EditText
+                android:id="@+id/heightInput"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/square_borders"
+                android:backgroundTint="#8BBEC5"
+                android:fontFamily="serif"
+                android:hint="@string/height"
+                android:textSize="24sp" />
+
+            <EditText
+                android:id="@+id/weightInput"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/square_borders"
+                android:backgroundTint="#8BBEC5"
+                android:fontFamily="serif"
+                android:hint="@string/weight"
+                android:textSize="24sp" />
+
+            <EditText
+                android:id="@+id/allergiesInput"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/square_borders"
+                android:backgroundTint="#8BBEC5"
+                android:fontFamily="serif"
+                android:hint="@string/allergies"
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/registerPatientBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="serif"
+                android:text="@string/registerBtn"
+
+                android:textSize="24sp"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/button_styles"
+             />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>
